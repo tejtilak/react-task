@@ -18,7 +18,6 @@ const Extension = ({ data }) => {
                         </div>
                     </div>
                 )}
-
             </div>
         </div>
     )
