@@ -9,7 +9,6 @@ const Extension = ({ data }) => {
                         <div class='card' style={{ "width": "18ren" }}>
                             <img class="card-img-top" src={data.recipe.image} alt="Card img cap" />
                             <div class="card-body">
-
                                 <center>
                                     <h5 class="card-title">{data.recipe.label}</h5>
                                     <p class="card-text">Total Amount of calories: {Math.round(data.recipe.calories)} </p>
